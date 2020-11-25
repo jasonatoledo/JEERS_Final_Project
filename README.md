@@ -6,7 +6,7 @@
 *In progress...*
 
 ### Reason
-* In progress... *
+* In progress...*
  
 ### Description
 *In progress...*
