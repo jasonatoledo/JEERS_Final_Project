@@ -25,3 +25,15 @@
 
 Let Serge do some updates too
 >>>>>>> 289a9cf85d7fb784dbbf0b7302e88601083d7f5d
+
+## Technology Used in Project
+
+- PostgreSQL
+
+- Python / Machine Learning
+
+- Google Docs
+
+- Tableau
+
+- AWS
