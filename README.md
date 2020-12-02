@@ -43,11 +43,11 @@ Document our solutions to our project issues here.
 ## Team Roles
 
 ### Deliverable One
-Jason: Database: PostgreSQL
-Eric: README.md Update  
-Enrique: Presentation Outline  
-Riley: AWS  
-Serge: Machine Learning  
+- Jason: Database: PostgreSQL
+- Eric: README.md Update  
+- Enrique: Presentation Outline  
+- Riley: AWS  
+- Serge: Machine Learning  
 
 ### Deliverable Two
 Jason:  
