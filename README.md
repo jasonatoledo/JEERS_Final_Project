@@ -1,7 +1,7 @@
 # JEERS_Final_Project
 
 
-=======
+
 ## Presentation
 Add Screenshots or link to our Google Slides presentation.
 
