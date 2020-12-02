@@ -4,7 +4,7 @@
 
 ## Presentation
 ### Select Topic
-*In progress...*
+The JEERS group chose the UFC data. The dataset is a collection of stats per player, per match.
 
 ### Reason
 * In progress...*
