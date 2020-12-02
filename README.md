@@ -1,25 +1,17 @@
 # JEERS_Final_Project
 
 <<<<<<< HEAD
-
-## Presentation
-### Select Topic
-The JEERS group chose the UFC data. The dataset is a collection of stats per player, per match.
-
-### Reason
-* In progress...*
 =======
 ## Presentation
 Add Screenshots or link to our Google Slides presentation.
 
 ### Select Topic
-UFC Fighter Data
+The JEERS group selected to work with the UFC Fighter Data. The Dataset encompasses a number of different statistics per match, per player.
 
 ### Reason
-<<<<<<< HEAD
-Predict future fight winner outcomes.
+The reason the group chose this dataset is because not only are the member of JEERS group UFC enthusiast, they also found the dataset appealing as it contains multiple numerical values. The JEERS group believes there lies plenty of functionality within the dataset and is eager to drive some of these values through machine learning methods to find specific outcomes.
 =======
-*In progress...
+*In progres...
 >>>>>>> main
 >>>>>>> 68287110cc19f662a0bf5ec04fc14e2d95267fa1
  
