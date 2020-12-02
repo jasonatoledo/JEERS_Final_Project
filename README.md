@@ -39,7 +39,7 @@ The JEERS group chose the UFC data. The dataset is a collection of stats per pla
 Let Serge do some updates too
 >>>>>>> 289a9cf85d7fb784dbbf0b7302e88601083d7f5d
 
-## Technology Used in Project
+## Technology Used in the Project
 
 - PostgreSQL
 
