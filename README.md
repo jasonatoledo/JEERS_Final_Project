@@ -3,6 +3,7 @@
 
 
 ## Presentation
+
 Add Screenshots or link to our Google Slides presentation.
 
 ### Select Topic
@@ -23,6 +24,7 @@ Using machine learning algorithms, specifically using Random Forest, can a fight
 
 
 ## Technology Used in Project
+
 - Github
 - PostgreSQL
 - Python / Machine Learning
@@ -30,18 +32,27 @@ Using machine learning algorithms, specifically using Random Forest, can a fight
 - Tableau
 - AWS
 
+## Communication
+
+In order to avoid any ambiguity during the process of the project, the JEERS group will meet a minimum of two days a week on Zoom while maintaing a clear line of communication via Slack, text and Google Drive. 
+The team will assign roles to each member to maximize productivity and mitigate mistakes. Each team member will create their own branch to work independently from the main branch and will only merge their branches once they have tested that their segment of the project is functional and integrates seamlessly with the main branch.
+
 ### Questions
+
 Input any questions we have or have had throughout the project timeline.
 
 ### Encountered Issues
+
 Document all project issues here.
 
 ### Solutions
+
 Document our solutions to our project issues here.
 
 ## Team Roles
 
 ### Deliverable One
+
 - Jason: Database: PostgreSQL
 - Eric: README.md Update  
 - Enrique: README.md/Presentation Outline  
@@ -49,6 +60,7 @@ Document our solutions to our project issues here.
 - Serge: Machine Learning  
 
 ### Deliverable Two
+
 Jason:  
 Eric:  
 Enrique:  
@@ -56,6 +68,7 @@ Riley:
 Serge:  
 
 ### Deliverable Three
+
 Jason:  
 Eric:  
 Enrique:  
@@ -63,6 +76,7 @@ Riley:
 Serge:  
 
 ### Deliverable Four
+
 Jason:  
 Eric:  
 Enrique:  
