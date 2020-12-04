@@ -7,21 +7,20 @@ Add Screenshots or link to our Google Slides presentation.
 
 ### Select Topic
 
-The JEERS group selected to work with the UFC Fighter Data. The Dataset encompasses a number of different statistics per match, per player.
+The JEERS group selected to work with the UFC Fighter Data. The Dataset encompasses numerous fighter statistics per match, per player.
 
 ### Reason
 
-The reason the group chose this dataset is because not only are the member of JEERS group UFC enthusiast, they also found the dataset appealing as it contains multiple numerical values. The JEERS group believes there lies plenty of functionality within the dataset and is eager to drive some of these values through machine learning methods to find specific outcomes.
+The reason the group chose this dataset is not only because group are UFC enthusiast, they also found the dataset appealing as it contains majorily numerical values. The JEERS group believes there lies plenty of functionality within the dataset and is eager to drive some of these values through machine learning methods to obtain solutions that can answer business questions.
  
 ### Description
 
-We will use all time UFC fight history and machine learning to help determine or predict a future winner in UFC match ups.
+The group will use an all time UFC fight history dataset and machine learning to help determine or predict a future winner in UFC match ups. The dataset was obtained from Kaggle.com.
 
 ### Questions Data Set Will Answer
 
-Can we use machine learning to determine a fight winner based on fighter demographics: Weight, Weightclass, Height, Age, Reach, Stance, Previous Fight Record, Fight Style and fight statistics.
+Using machine learning algorithms, specifically using Random Forest, can a fight winner be determined based on fighter demographics: weight, weightclass, height, age, reach, stance, previous fight record, fight style and fight statistics.
 
-=======
 
 ## Technology Used in Project
 - Github
@@ -69,7 +68,6 @@ Eric:
 Enrique:  
 Riley:  
 Serge:  
-=======
 
 ## Technology Used in the Project
 
