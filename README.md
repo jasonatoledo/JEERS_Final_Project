@@ -82,3 +82,5 @@ Serge:
 - Tableau
 
 - AWS
+
+Presentation: 15 min total: 10-13 min presentation and 2-3 min for Q&I
