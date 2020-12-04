@@ -55,7 +55,7 @@ Document our solutions to our project issues here.
 
 - Jason: Database: PostgreSQL
 - Eric: README.md Update  
-- Enrique: README.md/Github  
+- Enrique: Github  
 - Riley: AWS  
 - Serge: Machine Learning  
 
