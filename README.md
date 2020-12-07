@@ -61,11 +61,11 @@ Document our solutions to our project issues here.
 
 ### Deliverable Two
 
-Jason:  
-Eric:  
-Enrique:  
-Riley:  
-Serge:  
+Jason: Database Join/Adding data to SQL tables  
+Eric:  Database Connector/Linking to AWS/SQLAlchemy/Django, AWS, or Flask research
+Enrique:  Presentation/ML help/Github
+Riley:  Dashboard
+Serge:  Machine Learning 
 
 ### Deliverable Three
 
