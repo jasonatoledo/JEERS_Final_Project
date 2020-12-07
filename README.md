@@ -54,7 +54,7 @@ Document our solutions to our project issues here.
 ### Deliverable One
 
 - Jason: Database: PostgreSQL
-- Eric: README.md Update  
+- Eric: Presentation/README.md Update  
 - Enrique: Github  
 - Riley: AWS  
 - Serge: Machine Learning  
