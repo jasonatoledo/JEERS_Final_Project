@@ -22,7 +22,16 @@ The group will use an all time UFC fight history dataset and machine learning to
 
 Using machine learning algorithms, specifically using Random Forest, can a fight winner be determined based on fighter demographics: weight, weightclass, height, age, reach, stance, previous fight record, fight style and fight statistics.
 
+### Description of the data exploration phase of the project
 
+In order to understand what statistics were available within the dataset, as well as identifying which values would be ideal for the Machine Learning model, the team used Excel initially, to skim through the dataset and identify which characteristics of the dataset were preferred as well as locating null values. The dataset encompassed 5144 rows of detailed results between two fighters including, but not limited to, winner, number of rounds, win streaks, average body hits and several more. Some data transformation did occur within Excel, however most of the data clean up was done through Jupyter Notebook.
+
+Jupyter Notebook was used to create two fighter dataframes; a red and blue fighter dataframe. This was done by dropping the columns that pertained to the opposing fighter. The columns were renamed accordingly, and an additional binary "outcome" column was added to both dataframes which kept track if the specified fighter won the match. Futhermore, both fighters dataframe was merged to form the fighter_dataset.csv file which encompasses each fighters individual stats per match.
+
+### Description of the analysis phase of the project
+
+- In progress...
+  
 ## Technology Used in Project
 
 - Github
@@ -31,6 +40,7 @@ Using machine learning algorithms, specifically using Random Forest, can a fight
 - Google Docs
 - Tableau
 - AWS
+- Excel
 
 ## Communication
 
