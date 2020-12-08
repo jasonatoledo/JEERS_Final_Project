@@ -69,19 +69,19 @@ Document our solutions to our project issues here.
 
 ### Deliverable Three
 
-Jason:  
-Eric:  
-Enrique:  
-Riley:  
-Serge:  
+- Jason:  
+- Eric:  
+- Enrique:  
+- Riley:  
+- Serge:  
 
 ### Deliverable Four
 
-Jason:  
-Eric:  
-Enrique:  
-Riley:  
-Serge:  
+- Jason:  
+- Eric:  
+- Enrique:  
+- Riley:  
+- Serge:  
 
 ## Technology Used in the Project
 
