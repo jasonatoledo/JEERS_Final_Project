@@ -61,27 +61,27 @@ Document our solutions to our project issues here.
 
 ### Deliverable Two
 
-Jason: Database Join/Adding data to SQL tables  
-Eric:  Database Connector/Linking to AWS/SQLAlchemy/Django, AWS, or Flask research
-Enrique:  Presentation/ML help/Github
-Riley:  Dashboard
-Serge:  Machine Learning 
+- Jason: Database Join/Adding data to SQL tables  
+- Eric:  Database Connector/Linking to AWS/SQLAlchemy/Django, AWS, or Flask research
+- Enrique:  Presentation/ML help/Github
+- Riley:  Dashboard
+- Serge:  Machine Learning 
 
 ### Deliverable Three
 
-Jason:  
-Eric:  
-Enrique:  
-Riley:  
-Serge:  
+- Jason:  
+- Eric:  
+- Enrique:  
+- Riley:  
+- Serge:  
 
 ### Deliverable Four
 
-Jason:  
-Eric:  
-Enrique:  
-Riley:  
-Serge:  
+- Jason:  
+- Eric:  
+- Enrique:  
+- Riley:  
+- Serge:  
 
 ## Technology Used in the Project
 
