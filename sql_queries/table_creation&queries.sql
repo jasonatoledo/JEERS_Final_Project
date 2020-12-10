@@ -135,3 +135,49 @@ SELECT DISTINCT(fight_id),
 FROM fighters
 JOIN fights ON fights.b_fighter_id = fighters.fighter_id
 ORDER BY date, r_fighter_id
+
+-- Add records table to fights and fighters join
+SELECT DISTINCT(fights.fight_id), 
+	   winner, 
+	   title_bout, 
+	   weight_class,
+	   no_of_rounds, 
+	   r_fighter, 
+	   r_fighter_id,
+	   r_fighter_stance,
+       b_fighter, 
+       b_fighter_id,
+	   b_fighter_stance,
+       date, 
+       Referee, 
+       referee_id,
+	   (SELECT height_cms
+			  FROM fighters
+			  WHERE fighters.fighter_id = fights.b_fighter_id
+	   ) AS b_fighter_height,
+	   (SELECT height_cms
+			  FROM fighters
+			  WHERE fighters.fighter_id = fights.r_fighter_id
+	   ) AS r_fighter_height,
+	   (SELECT reach_cms
+			  FROM fighters
+			  WHERE fighters.fighter_id = fights.b_fighter_id
+	   ) AS b_fighter_reach,
+	   (SELECT reach_cms
+			  FROM fighters
+			  WHERE fighters.fighter_id = fights.r_fighter_id
+	   ) AS r_fighter_reach,
+	   (SELECT weight_lbs
+			  FROM fighters
+			  WHERE fighters.fighter_id = fights.b_fighter_id
+	   ) AS b_fighter_weight,
+	   (SELECT weight_lbs
+			  FROM fighters
+			  WHERE fighters.fighter_id = fights.r_fighter_id
+	   ) AS r_fighter_weight,
+	   records.*
+FROM fighters
+JOIN fights ON fights.b_fighter_id = fighters.fighter_id
+JOIN records ON records.fight_id = fights.fight_id
+ORDER BY date, r_fighter_id
+
