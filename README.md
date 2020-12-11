@@ -4,7 +4,8 @@
 
 ## Presentation
 
-Add Screenshots or link to our Google Slides presentation.
+[Link](https://docs.google.com/presentation/d/1Snf4cU-scyTUzBSdKRYNp5xEPtBvUgXduF_YP0-fb5A/edit?usp=sharing) to Google Slides Presentation
+
 
 ### Select Topic
 
