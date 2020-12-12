@@ -72,7 +72,7 @@ Document our solutions to our project issues here.
 
 ### Deliverable Two
 
-- Jason: Database Join/Adding data to SQL tables  
+- Jason: Database Join/Adding data to SQL tables, assiting with ML
 - Eric:  Database Connector/Linking to AWS/SQLAlchemy/Django, AWS, or Flask research
 - Enrique:  Presentation/ML help/Github
 - Riley:  Dashboard
