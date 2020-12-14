@@ -48,17 +48,31 @@ Jupyter Notebook was used to create two fighter dataframes; a red and blue fight
 In order to avoid any ambiguity during the process of the project, the JEERS group will meet a minimum of two days a week on Zoom while maintaing a clear line of communication via Slack, text and Google Drive. 
 The team will assign roles to each member to maximize productivity and mitigate mistakes. Each team member will create their own branch to work independently from the main branch and will only merge their branches once they have tested that their segment of the project is functional and integrates seamlessly with the main branch.
 
+## Machine Learning Model
+
+- Description of preliminary data preprocessing
+
+- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (JASON)
+
+- Description of how data was split into training and testing sets
+
+- Explanation of model choice, including limitations and benefits (SERGE)
+
+## Dashboard
+
+- Description of the tool(s) that will be used to create final dashboard. (Tableau)
+
+- Description of interactive element(s)
+
 ### Questions
 
 Input any questions we have or have had throughout the project timeline.
 
-### Encountered Issues
+### Encountered Issues/Solutions
 
-Document all project issues here.
+1. First version of model only had 34% accuracy.
+ - Seperated Men and Women fighters stats.
 
-### Solutions
-
-Document our solutions to our project issues here.
 
 ## Team Roles
 
@@ -103,17 +117,5 @@ Document our solutions to our project issues here.
 - Serge:  
 
 - Possible: run neural network to see if performance improves
-
-## Technology Used in the Project
-
-- PostgreSQL
-
-- Python / Machine Learning
-
-- Google Docs
-
-- Tableau
-
-- AWS
 
 Presentation: 15 min total: 10-13 min presentation and 2-3 min for Q&I
