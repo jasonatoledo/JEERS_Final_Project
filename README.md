@@ -72,6 +72,10 @@ Input any questions we have or have had throughout the project timeline.
 
 1. First version of model only had 34% accuracy.
  - Seperated Men and Women fighters stats.
+ 
+2. Did not include age in dataset.
+ - Added age to fighters table.
+ - Updated ML model to include missing feature.
 
 
 ## Team Roles
