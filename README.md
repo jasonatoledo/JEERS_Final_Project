@@ -64,19 +64,23 @@ Document our solutions to our project issues here.
 
 ### Deliverable One
 
-- Jason: Database: PostgreSQL
+- Jason: Database: PostgreSQL setup at least 2 tables
 - Eric: Presentation/README.md Update  
-- Enrique: Github  
-- Riley: AWS  
-- Serge: Machine Learning  
+- Enrique: Github/Readme
+- Riley: AWS setup and provisioning
+- Serge: Machine Learning pseudo code
 
 ### Deliverable Two
 
 - Jason: Database Join/Adding data to SQL tables, assist with ML
 - Eric:  Database Connector/Linking to AWS/SQLAlchemy/Django, AWS, or Flask research
 - Enrique:  Presentation/ML help/Github
-- Riley:  Dashboard
-- Serge:  Machine Learning 
+- Riley:  Tableau Dashboard & statistics on data
+- Serge:  Create functional Machine Learning model
+
+- Remove the unnecessary features and encode/scale the features we want to keep
+- Get the machine learning model up & running
+- Separate men & women fighters
 
 ### Deliverable Three
 
@@ -86,6 +90,10 @@ Document our solutions to our project issues here.
 - Riley:  
 - Serge:  
 
+- Separate MLM by weight class and rerun by weight class & women fighters
+- Merge records data table to best model to improve performance (hopefully)
+
+
 ### Deliverable Four
 
 - Jason:  
@@ -93,6 +101,8 @@ Document our solutions to our project issues here.
 - Enrique:  
 - Riley:  
 - Serge:  
+
+- Possible: run neural network to see if performance improves
 
 ## Technology Used in the Project
 
