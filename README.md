@@ -60,9 +60,16 @@ The team will assign roles to each member to maximize productivity and mitigate 
 
 ## Dashboard
 
-- Description of the tool(s) that will be used to create final dashboard. (Tableau)
+1. Storyboard for Dashboard
+- The dashboard will consist of three different areas:
+  1. Overview of the UFC (Includes figthers with most wins/fights, fights per weight class, wins by age, etc)
+  2. Showing the rise of the UFC (Includes number of fight per year, location of fights, etc)
+  3. Showing the findings of the machine learning algorithm (Includes accuracy, confusion maxtric, importance ranking, etc)
+- Each of these three parts will guide the viewer along to show why we picked this dataset, what it consists of, and how effectively we were able to build a predictive model with it. 
 
-- Description of interactive element(s)
+2. Description of the tool(s) that will be used to create final dashboard
+
+3. Description of interactive element(s)
 
 ### Questions
 
