@@ -68,6 +68,7 @@ The team will assign roles to each member to maximize productivity and mitigate 
 - Each of these three parts will guide the viewer along to show why we picked this dataset, what it consists of, and how effectively we were able to build a predictive model with it. 
 
 2. Description of the tool(s) that will be used to create final dashboard
+- The main tool used to create the dashboard will be Tableau. Within Tableau we will use interactive bar charts, line charts, pie charts, and treemaps to create the dashboard. 
 
 3. Description of interactive element(s)
 
