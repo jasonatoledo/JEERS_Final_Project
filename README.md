@@ -71,6 +71,7 @@ The team will assign roles to each member to maximize productivity and mitigate 
 - The main tool used to create the dashboard will be Tableau. Within Tableau we will use interactive bar charts, line charts, pie charts, and treemaps to create the dashboard. 
 
 3. Description of interactive element(s)
+- By using Tableau and posting the dashboard on the Tableau public website, viewers can visit the url and interactive with every chart as each offers specific information about each data point so that viewers can learn more about our analysis. 
 
 ### Questions
 
