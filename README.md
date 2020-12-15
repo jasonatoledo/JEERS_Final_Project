@@ -48,35 +48,57 @@ Jupyter Notebook was used to create two fighter dataframes; a red and blue fight
 In order to avoid any ambiguity during the process of the project, the JEERS group will meet a minimum of two days a week on Zoom while maintaing a clear line of communication via Slack, text and Google Drive. 
 The team will assign roles to each member to maximize productivity and mitigate mistakes. Each team member will create their own branch to work independently from the main branch and will only merge their branches once they have tested that their segment of the project is functional and integrates seamlessly with the main branch.
 
+## Machine Learning Model
+
+- Description of preliminary data preprocessing
+
+- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (JASON)
+
+- Description of how data was split into training and testing sets
+
+- Explanation of model choice, including limitations and benefits (SERGE)
+
+## Dashboard
+
+- Description of the tool(s) that will be used to create final dashboard. (Tableau)
+
+- Description of interactive element(s)
+
 ### Questions
 
 Input any questions we have or have had throughout the project timeline.
 
-### Encountered Issues
+### Encountered Issues/Solutions
 
-Document all project issues here.
+1. First version of model only had 34% accuracy.
+ - Seperated Men and Women fighters stats.
+ 
+2. Did not include age in dataset.
+ - Added age to fighters table.
+ - Updated ML model to include missing feature.
 
-### Solutions
-
-Document our solutions to our project issues here.
 
 ## Team Roles
 
 ### Deliverable One
 
-- Jason: Database: PostgreSQL
+- Jason: Database: PostgreSQL setup at least 2 tables
 - Eric: Presentation/README.md Update  
-- Enrique: Github  
-- Riley: AWS  
-- Serge: Machine Learning  
+- Enrique: Github/Readme
+- Riley: AWS setup and provisioning
+- Serge: Machine Learning pseudo code
 
 ### Deliverable Two
 
-- Jason: Database Join/Adding data to SQL tables  
+- Jason: Database Join/Adding data to SQL tables, assist with ML
 - Eric:  Database Connector/Linking to AWS/SQLAlchemy/Django, AWS, or Flask research
 - Enrique:  Presentation/ML help/Github
-- Riley:  Dashboard
-- Serge:  Machine Learning 
+- Riley:  Tableau Dashboard & statistics on data
+- Serge:  Create functional Machine Learning model
+
+- Remove the unnecessary features and encode/scale the features we want to keep
+- Get the machine learning model up & running
+- Separate men & women fighters
 
 ### Deliverable Three
 
@@ -86,6 +108,10 @@ Document our solutions to our project issues here.
 - Riley:  
 - Serge:  
 
+- Separate MLM by weight class and rerun by weight class & women fighters
+- Merge records data table to best model to improve performance (hopefully)
+
+
 ### Deliverable Four
 
 - Jason:  
@@ -94,16 +120,6 @@ Document our solutions to our project issues here.
 - Riley:  
 - Serge:  
 
-## Technology Used in the Project
-
-- PostgreSQL
-
-- Python / Machine Learning
-
-- Google Docs
-
-- Tableau
-
-- AWS
+- Possible: run neural network to see if performance improves
 
 Presentation: 15 min total: 10-13 min presentation and 2-3 min for Q&I
