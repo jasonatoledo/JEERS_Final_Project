@@ -37,7 +37,8 @@ Jupyter Notebook was used to create two fighter dataframes; a red and blue fight
 
 - Github
 - PostgreSQL
-- Python / Machine Learning
+- Python / Machine Learning / Flask
+- HTML, CSS
 - Google Docs
 - Tableau
 - AWS
@@ -54,15 +55,26 @@ The team will assign roles to each member to maximize productivity and mitigate 
 
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (JASON)
 
+For our preliminary features, we decided to first use all of the physical attributes of a fighter, including weight, height, reach, fighter stance, and age. We added in additional features, including weight class, and number of rounds fought to see if the added features would improve the model. We'd like to add in fighter win history data to see if the model improves in our next iteration of the model.
+
 - Description of how data was split into training and testing sets
 
 - Explanation of model choice, including limitations and benefits (SERGE)
 
 ## Dashboard
 
-- Description of the tool(s) that will be used to create final dashboard. (Tableau)
+1. Storyboard for Dashboard
+- The dashboard will consist of three different areas:
+  1. Overview of the UFC (Includes figthers with most wins/fights, fights per weight class, wins by age, etc)
+  2. Showing the rise of the UFC (Includes number of fight per year, location of fights, etc)
+  3. Showing the findings of the machine learning algorithm (Includes accuracy, confusion maxtric, importance ranking, etc)
+- Each of these three parts will guide the viewer along to show why we picked this dataset, what it consists of, and how effectively we were able to build a predictive model with it. 
 
-- Description of interactive element(s)
+2. Description of the tool(s) that will be used to create final dashboard
+- The main tool used to create the dashboard will be Tableau. Within Tableau we will use interactive bar charts, line charts, pie charts, and treemaps to create the dashboard. 
+
+3. Description of interactive element(s)
+- By using Tableau and posting the dashboard on the Tableau public website, viewers can visit the url and interactive with every chart as each offers specific information about each data point so that viewers can learn more about our analysis. 
 
 ### Questions
 
@@ -108,9 +120,10 @@ Input any questions we have or have had throughout the project timeline.
 - Riley:  
 - Serge:  
 
+- Remove catch weight and open weight classes because they tend to have a lot of missing data values
+- Remove draw outcomes to make the win/lose binary
 - Separate MLM by weight class and rerun by weight class & women fighters
 - Merge records data table to best model to improve performance (hopefully)
-
 
 ### Deliverable Four
 
