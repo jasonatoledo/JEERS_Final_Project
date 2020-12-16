@@ -37,7 +37,8 @@ Jupyter Notebook was used to create two fighter dataframes; a red and blue fight
 
 - Github
 - PostgreSQL
-- Python / Machine Learning
+- Python / Machine Learning / Flask
+- HTML, CSS
 - Google Docs
 - Tableau
 - AWS
