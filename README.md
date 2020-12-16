@@ -37,7 +37,8 @@ Jupyter Notebook was used to create two fighter dataframes; a red and blue fight
 
 - Github
 - PostgreSQL
-- Python / Machine Learning
+- Python / Machine Learning / Flask
+- HTML, CSS
 - Google Docs
 - Tableau
 - AWS
@@ -53,6 +54,8 @@ The team will assign roles to each member to maximize productivity and mitigate 
 - Description of preliminary data preprocessing
 
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (JASON)
+
+For our preliminary features, we decided to first use all of the physical attributes of a fighter, including weight, height, reach, fighter stance, and age. We added in additional features, including weight class, and number of rounds fought to see if the added features would improve the model. We'd like to add in fighter win history data to see if the model improves in our next iteration of the model.
 
 - Description of how data was split into training and testing sets
 
@@ -117,9 +120,10 @@ Input any questions we have or have had throughout the project timeline.
 - Riley:  
 - Serge:  
 
+- Remove catch weight and open weight classes because they tend to have a lot of missing data values
+- Remove draw outcomes to make the win/lose binary
 - Separate MLM by weight class and rerun by weight class & women fighters
 - Merge records data table to best model to improve performance (hopefully)
-
 
 ### Deliverable Four
 
