@@ -88,6 +88,10 @@ Input any questions we have or have had throughout the project timeline.
 2. Did not include age in dataset.
  - Added age to fighters table.
  - Updated ML model to include missing feature.
+ - accuracy improved to 39%
+ 
+3. Accuracy was still low after adding age to dataset
+ - Separated women fighters from dataset and will run separately in next deliverable
 
 
 ## Team Roles
