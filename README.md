@@ -119,9 +119,9 @@ Input any questions we have or have had throughout the project timeline.
 - Riley:  
 - Serge:  
 
+- Remove catch weight and open weight classes because they tend to have a lot of missing data values
 - Separate MLM by weight class and rerun by weight class & women fighters
 - Merge records data table to best model to improve performance (hopefully)
-
 
 ### Deliverable Four
 
