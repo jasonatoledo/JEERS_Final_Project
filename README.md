@@ -90,8 +90,10 @@ Input any questions we have or have had throughout the project timeline.
  - Updated ML model to include missing feature.
  - accuracy improved to 39%
  
-3. Accuracy was still low after adding age to dataset
+3. Accuracy was still low after adding age to dataset. Used reset_index() method and old index appeared as a column in the data, which should not have been a feature
+ - Added drop=True to remove the old column with reset_index().
  - Separated women fighters from dataset and will run separately in next deliverable
+ - Accuracy increased to 46%
 
 
 ## Team Roles
