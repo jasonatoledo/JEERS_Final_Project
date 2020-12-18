@@ -31,8 +31,14 @@ Jupyter Notebook was used to create two fighter dataframes; a red and blue fight
 
 ### Description of the analysis phase of the project
 
-- In progress...
-  
+The analysis phase consisted of creating four SQL tables using PGadmin to prepare our data for the machine learning model. The tables created are the 'fights', 'fighters', 'records', and 'referees' table. Using the 'fighters' table and joining the 'records' and 'fights' table on fight_id and b_fighter_id, respectively. The combined SQL query was exported as the 'fights_fighters_records_v2.csv' file. This file was used to train and test our machine learning model. 
+
+Using Jupyter Notebook, the CSV file was imported and the number of columns was reduced in an iterative process; columns with null values were filled or dropped according to importance. All objects were converted float64 or int64 variables and encoded. The encoded dataframe was split into training and testing sets. The values for 'X' were all values, with the exception of the 'winner' column which was used for the 'y' values.
+
+The training set was ran through a BalancedRandomForestClassifier machine learning model. a balanced accuracy score test was run multiple times with different iteration of the initial CSV file to find the most accurate score. Our initial accuracy score was 33% but after seperating the womans fighter data, removed any fights with a 'Draw' value in the 'winner' column, and included the mens age record, our models' accuracy increased over 63%
+
+Ultimately we found that keeping our data as binary as possible renders better accuracy for the machine learning model selected; furthermore, we found the top features with the greatest importance to be age, reach, height, and weight.
+
 ## Technology Used in Project
 
 - Github
