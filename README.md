@@ -59,7 +59,7 @@ The team will assign roles to each member to maximize productivity and mitigate 
 
 - Description of preliminary data preprocessing (Enrique)
 
-For the preliminary data preprocessing, excel was used as an overview of the dataset. Features with high null values were acknowledged and 
+For the preliminary data preprocessing, excel was used as an overview of the dataset downloaded from kaggle. Features with high null values were acknowledged and later dropped or modified. Most of the values were highly numerical with a few being object type variables; however, the initial dataset contained too many columns which were not considered as valuable, such as 'referee name', so the data was broken up into four SQL tables.
 
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (JASON)
 
