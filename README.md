@@ -57,7 +57,9 @@ The team will assign roles to each member to maximize productivity and mitigate 
 
 ## Machine Learning Model
 
-- Description of preliminary data preprocessing
+- Description of preliminary data preprocessing (Enrique)
+
+For the preliminary data preprocessing, excel was used as an overview of the dataset. Features with high null values were acknowledged and 
 
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (JASON)
 
@@ -106,32 +108,87 @@ Input any questions we have or have had throughout the project timeline.
 
 ### Deliverable One
 
-- Jason: Database: PostgreSQL setup at least 2 tables
-- Eric: Presentation/README.md Update  
-- Enrique: Github/Readme
-- Riley: AWS setup and provisioning
-- Serge: Machine Learning pseudo code
+1 Jason: Database: PostgreSQL setup at least 2 tables
+- Sample data that mimics the expected the expected final database structure or schema
+- Draft machine learning module is connected to the provisional database
+
+2 Eric: Presentation
+- Selected topic
+- Reason why they selected their topic
+- Description of their source of data
+
+
+3 Enrique: Github
+- Includes a README.md
+- At least one branch for each team member
+- Each team member has at least four commits from the duration of the first segment
+
+4 Riley: AWS setup and provisioning
+- Question they hope to answer
+- Description of the communication protocols
+
+5 Serge: Machine Learning pseudo code
+- Takes in data from the provisional database
+- Outputs label(s) for input data
 
 ### Deliverable Two
 
-- Jason: Database Join/Adding data to SQL tables, assist with ML
-- Eric:  Database Connector/Linking to AWS/SQLAlchemy/Django, AWS, or Flask research
-- Enrique:  Presentation/ML help/Github
-- Riley:  Tableau Dashboard & statistics on data
-- Serge:  Create functional Machine Learning model
+1 Jason: Database Join/Adding data to SQL tables, assist with ML
+- Sample data that mimics the expected the expected final database structure or schema
+- Draft machine learning module is connected to the provisional database
+- Database stores static data for use during the project
+- Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+- Includes at least two tables (or collections, if using MongoDB)
+- Includes at least one join using the database language (not including any joins in Pandas)
+- Includes at least one connection string (using SQLAlchemy or PyMongo)
 
+
+2 Eric:  Database Connector/Linking to AWS/SQLAlchemy/Django, AWS, or Flask research
+- Selected topic
+- Reason why they selected their topic
+- Description of their source of data
+- All code necessary to perform exploratory analysis
+- Some code necessary to complete the machine learning portion of the project
+- Outline of the project (this may include images, but should be easy to follow and digest)
+
+3 Enrique:  Presentation/ML help
+- Includes a README.md
+- At least one branch for each team member
+- Each team member has at least four commits from the duration of the first segment
+- Description of the data exploration phase of the project
+- Description of the analysis phase of the project
+- Presentations are drafted in Google Slides.
+
+4 Riley: Tableau Dashboard & statistics on data
+- Question they hope to answer
+- Description of the communication protocols
+- Storyboard on Google Slide(s)
+- Description of the tool(s) that will be used to create final dashboard
+- Description of interactive element(s)
+
+5 Serge:  Create functional Machine Learning model
+- Takes in data from the provisional database
+- Outputs label(s) for input data
+- Description of preliminary data preprocessing
+- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
+- Description of how data was split into training and testing sets
+- Explanation of model choice, including limitations and benefits
+
+
+---
 - Remove the unnecessary features and encode/scale the features we want to keep
 - Get the machine learning model up & running
 - Separate men & women fighters
 
 ### Deliverable Three
 
-- Jason:  
-- Eric:  
-- Enrique:  
-- Riley:  
-- Serge:  
+1 Jason:  
+2 Eric:  
+3 Enrique:  
+4 Riley:  
+5 Serge:  
 
+---
 - Remove catch weight and open weight classes because they tend to have a lot of missing data values
 - Remove draw outcomes to make the win/lose binary
 - Separate MLM by weight class and rerun by weight class & women fighters
@@ -139,12 +196,13 @@ Input any questions we have or have had throughout the project timeline.
 
 ### Deliverable Four
 
-- Jason:  
-- Eric:  
-- Enrique:  
-- Riley:  
-- Serge:  
+1 Jason:  
+2 Eric:  
+3 Enrique:  
+4 Riley:  
+5 Serge:  
 
+---
 - Possible: run neural network to see if performance improves
 
 Presentation: 15 min total: 10-13 min presentation and 2-3 min for Q&I
