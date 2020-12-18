@@ -1,0 +1,1 @@
+#postgres_connection = 'postgresql+pyodbc://postgres:JEERS123!@http://database-jeers.czgvqrcdettr.us-east-2.rds.amazonaws.com/JEERS_UFC'
