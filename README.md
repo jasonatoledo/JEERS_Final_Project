@@ -65,9 +65,18 @@ For the preliminary data preprocessing, excel was used as an overview of the dat
 
 For our preliminary features, we decided to first use all of the physical attributes of a fighter, including weight, height, reach, fighter stance, and age. We added in additional features, including weight class, and number of rounds fought to see if the added features would improve the model. We'd like to add in fighter win history data to see if the model improves in our next iteration of the model.
 
-- Description of how data was split into training and testing sets
+- Description of how data was split into training and testing sets (Riley)
+
+Training and testing sets were split up using an 80/20 approach. This was because the dataset contained over 5000 values allowing us to train our model with plenty of values while still maintaining enough to test with.
+
 
 - Explanation of model choice, including limitations and benefits (SERGE)
+
+-- BalancedRandomForest
+-- Binary dataset returned greater accuracy
+-- Limitations: Not as robust as Neural Network. Can have a "black box" effect, making it harder to effectively optimize the machine learning model
+
+-- Benefits: Due to feature size of dataset, it allowed multiple weak learners to create a more accurate and robust prediction engine model. Also, helps with dealing with overfitting, ranks feature importance.
 
 ## Dashboard
 
