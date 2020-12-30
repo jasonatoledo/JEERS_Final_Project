@@ -72,6 +72,10 @@ Training and testing sets were split up using an 80/20 approach. This was becaus
 
 - Explanation of model choice, including limitations and benefits (SERGE)
 
+We decided to use supervised machine learning model as we already know the target outcome that we are trying to predict (in other words the outcome is discrete) - whether or not a UFC fighter would win against another UFC fighter, based on demographic and fights data. 
+
+One of the limitations of the Random Forests model is the binary nature of the model’s output. In other words, having “red fighter” win, “blue fighter” win, and “draw” as the three potential outcomes of a fight was not perfect for our research. In order to solve that, we removed all “draws” from the dataset (which didn’t affect the number of rows significantly) and return the model to the binary outcome, which improved the overall model’s accuracy. 
+
 -- BalancedRandomForest
 -- Binary dataset returned greater accuracy
 -- Limitations: Not as robust as Neural Network. Can have a "black box" effect, making it harder to effectively optimize the machine learning model
