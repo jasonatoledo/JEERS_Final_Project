@@ -8,7 +8,19 @@ import pandas as pd
 # Database connection code.
 engine = create_engine('postgresql+psycopg2://postgres:JEERS123!@database-jeers.czgvqrcdettr.us-east-2.rds.amazonaws.com')
 conn = engine.connect()
-print(engine.table_names())
+
+# Create cursor object.
+cur = conn.cursor()
+
+# Query
+cur.execute("""SELECT * FROM fighters""")
+query_results = cur.fetchall()
+print(query_results)
+#print(engine.table_names())
+
+# Close the cursor and the connection
+cur.close()
+conn.close()
 
 """
 app = Flask(__name__)
