@@ -205,7 +205,7 @@ Input any questions we have or have had throughout the project timeline.
 ---
 - Remove catch weight and open weight classes because they tend to have a lot of missing data values
 - Remove draw outcomes to make the win/lose binary
-- Separate MLM by weight class and rerun by weight class & women fighters
+- Add in Logistic Regression ML model to try for better accuracy
 - Merge records data table to best model to improve performance (hopefully)
 
 ### Deliverable Four
@@ -218,5 +218,6 @@ Input any questions we have or have had throughout the project timeline.
 
 ---
 - Possible: run neural network to see if performance improves
+- Separate MLM by weight class and rerun by weight class & women fighters
 
 Presentation: 15 min total: 10-13 min presentation and 2-3 min for Q&I
