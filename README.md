@@ -49,6 +49,7 @@ Ultimately we found that keeping our data as binary as possible renders better a
 - Tableau
 - AWS
 - Excel
+- PGadmin
 
 ## Communication
 
