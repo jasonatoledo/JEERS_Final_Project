@@ -42,6 +42,7 @@ Ultimately we found that keeping our data as binary as possible renders better a
 ## Technology Used in Project
 
 - Github
+- Jupyter Notebook
 - PostgreSQL
 - Python / Machine Learning / Flask
 - HTML, CSS
