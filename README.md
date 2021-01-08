@@ -84,6 +84,12 @@ One of the limitations of the Random Forests model is the binary nature of the m
 
 -- Benefits: Due to feature size of dataset, it allowed multiple weak learners to create a more accurate and robust prediction engine model. Also, helps with dealing with overfitting, ranks feature importance.
 
+- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+
+- Description of how they have trained the model thus far, and any additional training that will take place
+
+- Description of current accuracy score
+
 ## Dashboard
 
 1. Storyboard for Dashboard
