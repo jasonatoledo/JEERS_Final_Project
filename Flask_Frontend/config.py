@@ -1,1 +1,2 @@
-#postgres_connection = 'postgresql+pyodbc://postgres:JEERS123!@http://database-jeers.czgvqrcdettr.us-east-2.rds.amazonaws.com/JEERS_UFC'
+db_pwd = "JEERS123!"
+pgadmin_pwd = "608824713"

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+                                /* RESET TEMPLATE STYLES */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+    font: inherit;
+	vertical-align: baseline;
+}
+
+                        /* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+                            /* BODY AND UNIVERSAL STYLES */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: inherit;
+    max-width: 1260px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+                                /* HEADER STYLES */
+nav {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: .25rem;
+    text-decoration: none;
+    color: #000;
+}
+
+
+header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    padding: .5rem;
+    background-color: lightgrey;
+    margin:.25rem;
+    border-radius: 10px;
+}
+
+.links a:hover {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    padding: .5rem;
+    background-color: grey;
+    margin:.25rem;
+    border-radius: 10px;
+    transition: ease-in-out .2s;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', monospace;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+                                /* MAIN STYLES */
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.iframes iframe {
+    height: 90vh;
+    width: 100%;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #fff;
+}
+
+.images img {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    height: auto;
+    display: block;
+}
+
+                                 /* FOOTER STYLES */
+
+footer {
+
+}
+
+footer .copyright {
+    font-size: .75em;
+    text-align: center;
+}
