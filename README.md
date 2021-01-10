@@ -42,6 +42,7 @@ Ultimately we found that keeping our data as binary as possible renders better a
 ## Technology Used in Project
 
 - Github
+- Jupyter Notebook
 - PostgreSQL
 - Python / Machine Learning / Flask
 - HTML, CSS
@@ -49,6 +50,7 @@ Ultimately we found that keeping our data as binary as possible renders better a
 - Tableau
 - AWS
 - Excel
+- PGadmin
 
 ## Communication
 
@@ -71,6 +73,10 @@ Training and testing sets were split up using an 80/20 approach. This was becaus
 
 
 - Explanation of model choice, including limitations and benefits (SERGE)
+
+We decided to use supervised machine learning model as we already know the target outcome that we are trying to predict (in other words the outcome is discrete) - whether or not a UFC fighter would win against another UFC fighter, based on demographic and fights data. 
+
+One of the limitations of the Random Forests model is the binary nature of the model’s output. In other words, having “red fighter” win, “blue fighter” win, and “draw” as the three potential outcomes of a fight was not perfect for our research. In order to solve that, we removed all “draws” from the dataset (which didn’t affect the number of rows significantly) and return the model to the binary outcome, which improved the overall model’s accuracy. 
 
 -- BalancedRandomForest
 -- Binary dataset returned greater accuracy
@@ -200,7 +206,7 @@ Input any questions we have or have had throughout the project timeline.
 ---
 - Remove catch weight and open weight classes because they tend to have a lot of missing data values
 - Remove draw outcomes to make the win/lose binary
-- Separate MLM by weight class and rerun by weight class & women fighters
+- Add in Logistic Regression ML model to try for better accuracy
 - Merge records data table to best model to improve performance (hopefully)
 
 ### Deliverable Four
@@ -213,5 +219,6 @@ Input any questions we have or have had throughout the project timeline.
 
 ---
 - Possible: run neural network to see if performance improves
+- Separate MLM by weight class and rerun by weight class & women fighters
 
 Presentation: 15 min total: 10-13 min presentation and 2-3 min for Q&I
