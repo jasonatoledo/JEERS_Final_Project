@@ -86,15 +86,15 @@ One of the limitations of the Random Forests model is the binary nature of the m
 
 -- Benefits: Due to feature size of dataset, it allowed multiple weak learners to create a more accurate and robust prediction engine model. Also, helps with dealing with overfitting, ranks feature importance.
 
-- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+-- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 
 In an attempt to improve our accuracy score, we moved over to using a logistic regression model approach.
 
-- Description of how they have trained the model thus far, and any additional training that will take place
+-- Description of how they have trained the model thus far, and any additional training that will take place
 
 We have had eight machine learning iterations in which we have dropped certain features, made our training values all numerical values, replaced null values with the mean values for specific features, and encoded our features to be binary.
 
-- Description of current accuracy score
+-- Description of current accuracy score
 
 When using the BalancedRandomForest model, the best accuracy scores obtained was 64%; Using the logistic regression approach, our accuracy score improved to 69%.
 
