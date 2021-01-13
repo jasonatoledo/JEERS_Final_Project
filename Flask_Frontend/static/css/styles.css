@@ -66,9 +66,10 @@ html {
                             /* BODY AND UNIVERSAL STYLES */
 
 body {
+    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     box-sizing: inherit;
-    max-width: 1260px;
+    max-width: 1460px;
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -78,7 +79,9 @@ body {
                                 /* HEADER STYLES */
 nav {
     width: 100%;
-    margin: 0 auto;
+    margin: 30px auto;
+    text-align: center;
+    height: 30px;
 }
 
 nav ul {
@@ -88,12 +91,24 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 nav ul li a {
     padding: .25rem;
     text-decoration: none;
     color: #000;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #C62127;
+    transition: ease-in-out .3s;
 }
 
 
@@ -128,10 +143,24 @@ header {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: 'Roboto', monospace;
     text-align: center;
     margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 10px 0px 10px 0px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 10px 0px 10px 0px;
+}
+
+h6 {
+    font-size: 1.02rem;
 }
 
                                 /* MAIN STYLES */
@@ -145,6 +174,40 @@ section {
     margin-bottom: 5rem;
 }
 
+.team {
+    width: 100%;
+    background-color: none;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.jwp {
+    margin: 0 auto;
+    width: 75%;
+    display: block;
+}
+
+.member {
+    width: 19%;
+    display: inline-block;
+    margin: 0;
+    padding-top: 3.5rem;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+}
+
+.member h5 {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: -10px;
+    letter-spacing: 1px;
+}
+
 .iframes iframe {
     height: 90vh;
     width: 100%;
@@ -154,12 +217,22 @@ section {
     border: 1px solid #fff;
 }
 
-.images img {
-    width: 80%;
-    margin: 0 auto;
-    padding: 1rem;
+.half {
+    width: 45%;
     height: auto;
-    display: block;
+    margin: 0 auto;
+    border: 5px solid transparent;
+}
+
+.wide {
+    width: 95%;
+    margin: 0 auto;
+    border: 5px solid transparent;
+}
+
+.wide:hover,
+.half:hover {
+    border: 5px solid gold;
 }
 
                                  /* FOOTER STYLES */
