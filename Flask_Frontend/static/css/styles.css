@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+                                /* RESET TEMPLATE STYLES */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+    font: inherit;
+	vertical-align: baseline;
+}
+
+                        /* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+                            /* BODY AND UNIVERSAL STYLES */
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: inherit;
+    max-width: 1460px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+                                /* HEADER STYLES */
+nav {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    height: 30px;
+}
+
+nav ul {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+nav ul li a {
+    padding: .25rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #C62127;
+    transition: ease-in-out .3s;
+}
+
+
+header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    padding: .5rem;
+    background-color: lightgrey;
+    margin:.25rem;
+    border-radius: 10px;
+}
+
+.links a:hover {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    padding: .5rem;
+    background-color: grey;
+    margin:.25rem;
+    border-radius: 10px;
+    transition: ease-in-out .2s;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Roboto', monospace;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 10px 0px 10px 0px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 10px 0px 10px 0px;
+}
+
+h6 {
+    font-size: 1.02rem;
+}
+
+                                /* MAIN STYLES */
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.team {
+    width: 100%;
+    background-color: none;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.jwp {
+    margin: 0 auto;
+    width: 75%;
+    display: block;
+}
+
+.member {
+    width: 19%;
+    display: inline-block;
+    margin: 0;
+    padding-top: 3.5rem;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+}
+
+.member h5 {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: -10px;
+    letter-spacing: 1px;
+}
+
+.iframes iframe {
+    height: 90vh;
+    width: 100%;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #fff;
+}
+
+.half {
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid transparent;
+}
+
+.wide {
+    width: 95%;
+    margin: 0 auto;
+    border: 5px solid transparent;
+}
+
+.wide:hover,
+.half:hover {
+    border: 5px solid gold;
+}
+
+                                 /* FOOTER STYLES */
+
+footer {
+
+}
+
+footer .copyright {
+    font-size: .75em;
+    text-align: center;
+}
