@@ -249,6 +249,7 @@ section {
     width: 90%;
     margin: 0 auto;
     border: 5px solid transparent;
+    display: block;
 }
 
 .wide:hover,
@@ -279,29 +280,37 @@ footer .copyright {
 .erd2 {
     height: 80vh;
     width: auto;
-    margin: 0 auto;
-    display: inline-block;
 }
 
 .finalquery {
-    height: 90vh;
+    height: 82vh;
     width: auto;
 }
 
 .tablecomplete {
-    height: 72vh;
+    height: 75vh;
     width: auto;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .fightertable {
     height: 85vh;
     width: auto;
-    display: block;
-    margin: 0 auto;
 }
 
-.fightsperclass {
-    display: block;
-    margin: 0 auto;
+.riseofufc,
+.winsbyage {
+    height: 58vh;
+    width: auto;
+}
+
+.spreadsheet {
+    height: 54vh;
+    width: auto;
+}
+
+.mlmodel1,
+.mlmodel2 {
+    height: 45vh;
+    width: auto;
 }
