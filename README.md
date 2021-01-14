@@ -27,14 +27,14 @@ The group will use an all time UFC fight history dataset and machine learning to
 Using machine learning algorithms, specifically using Random Forest, can a fight winner be determined based on fighter demographics: weight, weightclass, height, age, reach, stance, previous fight record, fight style and fight statistics.
 
 ---
-### Description of the data exploration phase of the project
+## Description of the data exploration phase of the project
 
 In order to understand what statistics were available within the dataset, as well as identifying which values would be ideal for the Machine Learning model, the team used Excel initially, to skim through the dataset and identify which characteristics of the dataset were preferred as well as locating null values. The dataset encompassed 5144 rows of detailed results between two fighters including, but not limited to, winner, number of rounds, win streaks, average body hits and several more. Some data transformation did occur within Excel, however most of the data clean up was done through Jupyter Notebook.
 
 Jupyter Notebook was used to create two fighter dataframes; a red and blue fighter dataframe. This was done by dropping the columns that pertained to the opposing fighter. The columns were renamed accordingly, and an additional binary "outcome" column was added to both dataframes which kept track if the specified fighter won the match. Futhermore, both fighters dataframe was merged to form the fighter_dataset.csv file which encompasses each fighters individual stats per match.
 
 ---
-### Description of the analysis phase of the project
+## Description of the analysis phase of the project
 
 The analysis phase consisted of creating four SQL tables using PGadmin to prepare our data for the machine learning model. The tables created are the 'fights', 'fighters', 'records', and 'referees' table. Using the 'fighters' table and joining the 'records' and 'fights' table on fight_id and b_fighter_id, respectively. The combined SQL query was exported as the 'fights_fighters_records_v2.csv' file. This file was used to train and test our machine learning model. 
 
@@ -45,18 +45,23 @@ The training set was ran through a BalancedRandomForestClassifier machine learni
 Ultimately we found that keeping our data as binary as possible renders better accuracy for the machine learning model selected; furthermore, we found the top features with the greatest importance to be age, reach, height, and weight.
 
 ---
-## Technology Used in Project
 
-- Github
-- Jupyter Notebook
-- PostgreSQL
-- Python / Machine Learning / Flask
-- HTML, CSS
-- Google Docs
-- Tableau
-- AWS
-- Excel
-- PGadmin
+# Technologies Used
+
+## Source Control
+Github will be the primary code hosting platform.
+
+## Data Cleaning and Analysis
+Excel will be used as an overview to the data. Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python and Jupyter Notebook.
+
+## Database Storage
+PostgreSQL is the database we intend to use, and we will integrate AWS to display the data.
+
+## Machine Learning
+SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is using an 75/25 train-test split ratio. The training set was then fit into a Logistic Regression classifier.
+
+## Dashboard
+In addition to using a Flask template, and Googles Slides,  we will also integrate Tableau for a fully functioning and interactive dashboard. It will be hosted on Tableau public.
 
 --- 
 ## Machine Learning Model
@@ -86,15 +91,15 @@ One of the limitations of the Random Forests model is the binary nature of the m
 
 -- Benefits: Due to feature size of dataset, it allowed multiple weak learners to create a more accurate and robust prediction engine model. Also, helps with dealing with overfitting, ranks feature importance.
 
-- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+-- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 
 In an attempt to improve our accuracy score, we moved over to using a logistic regression model approach.
 
-- Description of how they have trained the model thus far, and any additional training that will take place
+-- Description of how they have trained the model thus far, and any additional training that will take place
 
 We have had eight machine learning iterations in which we have dropped certain features, made our training values all numerical values, replaced null values with the mean values for specific features, and encoded our features to be binary.
 
-- Description of current accuracy score
+-- Description of current accuracy score
 
 When using the BalancedRandomForest model, the best accuracy scores obtained was 64%; Using the logistic regression approach, our accuracy score improved to 69%.
 
