@@ -270,14 +270,76 @@ Input any questions we have or have had throughout the project timeline.
 
 ### Deliverable Four
 
-1 Jason:  
-2 Eric:  
-3 Enrique:  
-4 Riley:  
-5 Serge:  
+1 Jason: Database Management/Adding data to SQL tables, assist with ML
+- Sample data that mimics the expected the expected final database structure or schema
+- Draft machine learning module is connected to the provisional database
+- Database stores static data for use during the project
+- Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+- Includes at least two tables (or collections, if using MongoDB)
+- Includes at least one join using the database language (not including any joins in Pandas)
+- Includes at least one connection string (using SQLAlchemy or PyMongo)
+- Description of how they have trained the model thus far, and any additional training that will take place
+- Team members present a final project with a fully integrated database.
+- Recommendation for future analysis
+- Anything the team would have done differently
 
----
+
+2 Eric:  Presentation/Flask Front-End Developement
+- Selected topic
+- Reason why they selected their topic
+- Description of their source of data
+- All code necessary to perform exploratory analysis
+- Some code necessary to complete the machine learning portion of the project
+- Outline of the project (this may include images, but should be easy to follow and digest)
+- Communication Protocols removed
+- Created front end webpage for presentation
+- Slides are primarily images or graphics (rather than primarily text)
+- Images are clear, in high-definition, and directly illustrative of subject matter
+
+3 Enrique:  Presentation/ML help/Github
+- Includes a README.md
+- At least one branch for each team member
+- Each team member has at least four commits from the duration of the first segment
+- Description of the data exploration phase of the project
+- Description of the analysis phase of the project
+- Presentations are drafted in Google Slides.
+- Technologies, Languages, tools, and algorithms used throughout the project
+- All code in the master branch is production-ready.
+- All code is clean, commented, easy to read, and adheres to a coding standard
+- All code necessary to perform exploratory analysis
+- All code necessary to complete machine learning portion of project 
+- Any images that have been created (at least three)
+
+4 Riley: Tableau Dashboard & statistics on data/Machine Learning Model 
+- Question they hope to answer
+- Description of the communication protocols
+- Storyboard on Google Slide(s)
+- Description of the tool(s) that will be used to create final dashboard
+- Description of interactive element(s)
+- Images from the initial analysis
+- Data (images or report) from the machine learning task
+- At least one interactive element
+- Description and explanation of model’s confusion matrix, including final accuracy score
+- Result of analysis
+
+5 Serge:  Create functional Machine Learning model
+- Takes in data from the provisional database
+- Outputs label(s) for input data
+- Description of preliminary data preprocessing
+- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
+- Description of how data was split into training and testing sets
+- Explanation of model choice, including limitations and benefits
+- Explanation of changes in model in model choice
+- Description of current accuracy score 
+- All code necessary to perform exploratory analysis
+- All code necessary to complete machine learning portion of project
+
+
 - Possible: run neural network to see if performance improves
 - Separate MLM by weight class and rerun by weight class & women fighters
 
-Presentation: 15 min total: 10-13 min presentation and 2-3 min for Q&I
+Live Presentation
+---
+- All team members present in equal proportions
+- The team demonstrates interactivity of dashboard in real time
+- The presentation falls within any time limits provided by instructor 
